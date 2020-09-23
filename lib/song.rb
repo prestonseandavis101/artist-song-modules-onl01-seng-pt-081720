@@ -12,7 +12,7 @@ class Song
  ####Memorable::ClassMethods
   ##include
   #Memorable::InstanceMethods
-  include Paramble
+  #include Paramble
   
   attr_accessor :name
   attr_reader :artist
