@@ -7,12 +7,11 @@ require 'pry'
 class Song
  include Paramble 
  include Memorable::InstanceMethods
- e
+ extend Memorable::ClassMethods
  
- extend 
-  Memorable::ClassMethods
-  include
-  Memorable::InstanceMethods
+ ####Memorable::ClassMethods
+  ##include
+  #Memorable::InstanceMethods
   include Paramble
   
   attr_accessor :name
