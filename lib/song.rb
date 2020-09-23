@@ -1,3 +1,5 @@
+require_relative
+
 require 'pry'
 
 class Song
