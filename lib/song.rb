@@ -6,10 +6,8 @@ require 'pry'
 
 
  
- extend 
- Memorable::ClassMethods
-  include
-  Memorable::InstanceMethods
+ extend Memorable::ClassMethods
+  include Memorable::InstanceMethods
   include Paramble
   
   attr_accessor :name
