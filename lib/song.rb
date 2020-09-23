@@ -1,4 +1,4 @@
-require_relative
+require_relative '../lib/concerns/memorable'
 
 require 'pry'
 
