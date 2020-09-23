@@ -5,7 +5,7 @@ require_relative '../lib/concerns/paramble'
 require 'pry'
 
 
- 
+ class Song
  extend Memorable::ClassMethods
   include Memorable::InstanceMethods
   include Paramble
