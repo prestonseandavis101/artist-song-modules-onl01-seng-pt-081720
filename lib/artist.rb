@@ -1,5 +1,5 @@
 require_relative'../lib/concerns/memorable'
-require_relative
+require_relative '../lib/con'
 
 require 'pry'
 
