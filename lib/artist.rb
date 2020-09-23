@@ -6,12 +6,13 @@ require 'pry'
 
 
 class Artist
+  include Paramble
   extend Memorable::ClassMethods
   include Memorable::InstanceMethods
   
   #extend Memorable
   #extend Findable
-  include Paramble
+
   
   attr_accessor :name
   attr_reader :songs
